@@ -73,7 +73,7 @@ except Exception as e:
 # =====================================================
 
 try:
-    df = pd.read_excel("Customer_AI_Agent\\output\\customer_insights.xlsx")
+    df = pd.read_excel("customer_insights.xlsx")
 except Exception as e:
     st.error(f"Error loading customer_insights.xlsx: {e}")
     st.stop()
